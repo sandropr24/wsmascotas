@@ -17,3 +17,7 @@ INSERT INTO mascotas(tipo, nombre, color ,pesokg)VALUES
   ('Gato', 'Tony' , 'negro' , 3.2);
 
   SELECT * FROM mascotas LIMIT 5;
+
+  ALTER TABLE mascotas AUTO_INCREMENT 1;
+
+  DELETE FROM mascotas;
